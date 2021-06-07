@@ -23,25 +23,22 @@ la arquitectura y verificar el trabajo.
 
 | Module | Description |
 | ---------------- | -------------------------------------------------------- |
-| [Static Web hosting][static-web-hosting] | Desplegar un sitio web estático usando la consola de Amplify creando primero un repositorio *git* (ya sea en CodeCommit o GitHub) y luego enviando el código fuente del sitio. |
-| [User Management][user-management] | Configurar la administración de usuarios para el sitio web usando Amazon Cognito. |
-| [Serverless Backend][serverless-backend] | Crear una funciona lambda que almacene los datos en una tabla Amazon DynamoDB. |
-| [RESTful APIs][restful-apis] | Exponer la función lambda via Amazon API Gateway como una API RESTful que pueda ser llamada por el sitio web usando Javascript. |
+| [Instación de componentes][static-web-hosting] | Instalar las herramientas necesarias para construir y trabajar con un proyecto CDKTF |
+| [Crear un Proyecto][create-project] | Configurar la administración de usuarios para el sitio web usando Amazon Cognito. |
+| [Arquitectura PoC][get-sourcecode] | Crear una funciona lambda que almacene los datos en una tabla Amazon DynamoDB. |
+| [Desplegar infraestructura][deploy-architecture] | Exponer la función lambda via Amazon API Gateway como una API RESTful que pueda ser llamada por el sitio web usando Javascript. |
 
 :warning: Estos módulos deben ser executados de forma secuencial.
 
 
-[wildrydes]: http://wildrydes.com/
-[unicorns]: http://www.wildrydes.com/unicorns.html
-[amplify-console]: https://aws.amazon.com/amplify/console/
 [cognito]: https://aws.amazon.com/cognito/
 [lambda]: https://aws.amazon.com/lambda/
 [api-gw]: https://aws.amazon.com/api-gateway/
 [s3]: https://aws.amazon.com/s3/
 [dynamodb]: https://aws.amazon.com/dynamodb/
 [setup]: 0_Setup/
-[static-web-hosting]: 1_StaticWebHosting/
-[user-management]: 2_UserManagement/
-[serverless-backend]: 3_ServerlessBackend/
-[restful-apis]: 4_RESTfulAPIs/
+[installing-components]: 1_Installing/
+[create-project]: 2_CreateProject/
+[get-sourcecode]: 3_GetSourceCode/
+[deploy-architecture]: 4_Deploy/
 [cleanup]: 9_CleanUp/
