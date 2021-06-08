@@ -23,10 +23,10 @@ la arquitectura y verificar el trabajo.
 
 | Module | Description |
 | ---------------- | -------------------------------------------------------- |
-| [Instación de componentes][static-web-hosting] | Instalar las herramientas necesarias para construir y trabajar con un proyecto CDKTF |
-| [Crear un Proyecto][create-project] | Configurar la administración de usuarios para el sitio web usando Amazon Cognito. |
-| [Arquitectura PoC][get-sourcecode] | Crear una funciona lambda que almacene los datos en una tabla Amazon DynamoDB. |
-| [Desplegar infraestructura][deploy-architecture] | Exponer la función lambda via Amazon API Gateway como una API RESTful que pueda ser llamada por el sitio web usando Javascript. |
+| [Instación de componentes][installing-components] | Instalar las herramientas necesarias para construir y trabajar con un proyecto CDKTF |
+| [Crear un Proyecto][create-project] | Crear un proyecto nuevo y entender su arbol de directorios |
+| [Arquitectura PoC][get-sourcecode] | Del sombrero del mago, sacaremos una arquitectura que contiene componentes básicos tales como Authenticación, APIs, Microservicios y Persistencia de datos |
+| [Desplegar infraestructura][deploy-architecture] | Desplegaremos nuestra arquitectura y examinaremos los resultados. |
 
 :warning: Estos módulos deben ser executados de forma secuencial.
 
