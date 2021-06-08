@@ -1,9 +1,9 @@
 # Módulo 2: Inicialización de un proyecto CDKTF en Typescript
 
-Crearémos un proyecto usando el CLI de CDKTF, una vez creado, le agregaremos el provider **AWS** para cargar todas las clases Typescript que nos permitirán ir codeando nuestra arquitectura.
+Crearás un proyecto usando el CLI de CDKTF, una vez listo, le agregaremos el provider **AWS** para cargar todas las clases Typescript que te permitirán ir codeando tu arquitectura.
 
 ## Sobre este módulo
-A continuación y al igual que en el módulo anterior, tendrás dos alternativas para crear el proyecto, la primera con un script en el que he simplificado todos los pasos y la segunda paso a paso de forma manual
+A continuación y al igual que en el módulo anterior, tendrás dos alternativas para crear el proyecto, la primera con un script en el que he simplificado el proceso y la segunda, paso a paso
 
 ## Instrucciones
 
@@ -32,7 +32,7 @@ A continuación y al igual que en el módulo anterior, tendrás dos alternativas
     ```
 
 
-**:white_check_mark: Indicaciones manuales paso a paso**
+**:white_check_mark: Indicaciones paso a paso**
 
 1. Crea un directorio para tu proyecto, usando la terminal de Cloud9 escribe la siguiente instrucción
     ```bash
