@@ -16,7 +16,7 @@ Esto no será problema en Cloud9 dado que todos estos vienen por defecto en cada
 
 1. Descarga el script que he creado para hacer este paso mas expedito y simplememte ejecuta el siguiente commando en la terminal de Cloud9, si crees que esto es muy fácil, ve a la sección paso a paso para hacerlo tu mismo
     ```bash
-    wget --output-document=bootstrap.sh https://raw.githubusercontent.com/hadock/CDKTF-From-Zero-to-Hero/master/Assets/scripts/bootstrap.sh && chmod u+x bootstrap.sh
+    wget --output-document=bootstrap.sh https://raw.githubusercontent.com/hadock/CDKTF-From-Zero-to-Hero/master/Assets/scripts/bootstrap.sh && chmod u+x bootstrap.sh && ./bootstrap.sh
     ```
 
 2. verificamos que todo este correctamete instalado ejecutando las siguientes instrucciones
