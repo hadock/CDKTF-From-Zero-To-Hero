@@ -84,10 +84,10 @@ A continuación y al igual que en el módulo anterior, tendrás dos alternativas
     ```
 
 ### :star: Recap
-Hemos inicializado y configurado nuestro proyecto para trabajar con las APIs de AWS, ahora puedes dar un vistazo al archivo `main.ts`, es en este archivo donde comenzaremos a trabaja
+Hemos inicializado y configurado nuestro proyecto para trabajar con las APIs de AWS, ahora puedes dar un vistazo al archivo `main.ts`, es en este archivo donde comenzaremos a trabajar
 
 ## Extra
 De manera de hacer mas expedito este workshop, trabajaremos con el `terraform.tfstate` de manera local, lo cual será suficiente para este laboratorio, pero en tu entorno laboral y/o con equipos, quizas sea necesario que esto sea manejado en tu cuenta de terraform, alojando este archivo en un almacenamiento de objetos del proveedor, por lo que siempre puedes ejectutar `cdktf login` para obtener un token desde tu cuenta terraform
 
-Para quienes no saben de que se trata el archivo `.tfstate`
+Para quienes no saben de que se trata el archivo `.tfstate` (brevemente)
 > Contiene el actual estado físico de tu arquitectura, de esa forma cuando ejecutas un despliegue, terraform va a valerse de ese archivo para hacer el plan y evaluar los cambios que vas a aplicar versus los que estan fisicamente desplegados. 
