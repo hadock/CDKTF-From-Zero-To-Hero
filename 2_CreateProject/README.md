@@ -7,7 +7,7 @@ A continuación y al igual que en el módulo anterior, tendrás dos alternativas
 
 ## Instrucciones
 
-1. Copia y pega el siguiente comando que te permitirá inicializar el proyecto, con sencillos pasos tribiales tales como proveer un nombre para el directorio ya estarás listo, pudiendo dejar todo lo demás por defecto
+1. Copia y pega el siguiente comando que te permitirá inicializar el proyecto, se te pedirá que ingreses un nombre para el directorio, pudiendo dejar todo lo demás por defecto con los valores que te sugiere el proceso
     ```bash
     wget --output-document=startproject.sh https://raw.githubusercontent.com/hadock/CDKTF-From-Zero-to-Hero/master/Assets/scripts/startproject.sh && chmod u+x startproject.sh && ./startproject.sh
     ```
