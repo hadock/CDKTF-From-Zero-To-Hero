@@ -58,7 +58,7 @@ Esto no será problema en Cloud9 dado que todos estos vienen por defecto en cada
     ```bash
     sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
     ```
-1. Finalmente instala terraform y agrega el autocompletado 
+1. Finalmente instala **terraform-cli** y agrega el autocompletado 
     ```bash
     sudo yum -y install terraform
     ```
