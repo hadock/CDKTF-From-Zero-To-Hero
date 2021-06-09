@@ -12,7 +12,7 @@ donde podrás configurar tu entorno de desarrollo AWS Cloud9 IDE
 
 Ver el diagrama abajo para una representación completa de la architectura que vamos a desplegar con la prueba de concepto en la demo del módulo 3
 
-![Mis textos](Assets/images/wildrydes-complete-architecture.png)
+![Mis textos](Assets/images/complete-architecture.png)
 
 ### Módulos
 
