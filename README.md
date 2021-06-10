@@ -1,6 +1,6 @@
-## CDK For Terraform - From Zero to Hero (UNDER CONSTRUCTION)
+## CDK For Terraform - From Zero to Hero
 
-En este workshop instalaremos y configuraremos todo lo necesario para utilizar `cdktf`, el cli desarrollado por Hashicorp y AWS, quien te permitirá realizar todas las operaciones necesarias para que tu infraestructura como código (escrita en TypeScript para este workshop) sea desplegada mediante terraform.
+En este workshop instalaremos y configuraremos todo lo necesario para utilizar `cdktf`, el cli desarrollado por Hashicorp y AWS, quien te permitirá realizar todas las operaciones necesarias para que tu infraestructura como código (escrita en TypeScript para este workshop) sea desplegada y provisionada mediante el nuevo terraform CDK.
 Utilizaremos AWS Cloud9, por lo que no olvides leer los pre-requisitos y seguir los pasos para tener tu ambiente preparado para trabajar.
 
 En esta arquitectura desplegarás una aplicación serverless que utilizará [AWS Lambda][lambda], [Amazon API Gateway][api-gw], [Amazon DynamoDB][dynamodb], [Amazon Cognito][cognito]. El objetivo de este workshop es que entiendas lo necesario sobre los objetos y clases que te permitirán en un lenguaje amigable para un desarrollador, desplegar y provisionar arquitecturas, usando AWS Lambda como nuestro backend y expuestos de forma segura con API Gateway, luego Amazon Cognito provee las funciones de administración de usuarios y autenticación para asegurar el backend, y finalmente DynamoDB provee la capa de persistencia de datos donde tu backend puede almacenar y consultar por esta información.
