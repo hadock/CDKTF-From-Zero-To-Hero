@@ -1,6 +1,6 @@
 # Módulo 3: Arquitectura PoC
 
-En este módulo trabajarás con una típica arquitectura orientada a micro-servicios basada en API Gateway, Lambda y DynamoDB, sumado a esto finalmente agregaremos una capa de autenticación a nuestra API utilizando Amazon Cognito.
+En este módulo revisaremos el código fuenta para desplegar una típica arquitectura serverless orientada a micro-servicios basada en API Gateway, Lambda y DynamoDB, sumado a esto finalmente agregaremos una capa de autenticación a nuestra API utilizando Amazon Cognito.
 
 ## Sobre este módulo
 El demo y su código fuente no pretenden ser una referencia de programación, mas bien el objetivo es demostrar que podemos trabajar con un lenguaje familiar para cualquier developer y conseguir que este mismo sea el provisionador de los recursos que necesita para su aplicativo sin tener que aprender HCL.
@@ -105,6 +105,6 @@ Hasta aquí lo que hemos realizado es descargar el codigo fuente que contiene la
 En este punto ya deberías entender como está armado nuestro archivo principal `main.ts`. En el siguiente módulo vamos a desplegar y hacer cambios sobre nuestra arquitectura y aplicativo o microservicio backend
 
 ## :bulb: Tip
-Si quieres saber que parámetros son mandatorios o no cuando instancias un objeto en TypeScript usando Cloud9, solo debes posicionar el cursor en el objeto que estas creando, presionar **[CTRL] + SPACE** y apareceran las alternativas y posibles atributos. Aquellos con **"?"** son opcionales y los que no, son mandatorios.
+Si quieres saber que parámetros son mandatorios o no cuando instancias una clase en TypeScript usando Cloud9, solo debes posicionar el cursor en el espacio del párametro que estas creando, presiona **[CTRL] + SPACE** y apareceran las alternativas y posibles atributos. Aquellos con **"?"** son opcionales y los que no, son mandatorios.
 
 ![Tip](../Assets/images/3_Tip.png)
