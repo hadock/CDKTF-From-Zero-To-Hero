@@ -23,7 +23,7 @@ la arquitectura y verificar el trabajo.
 
 | Module | Description |
 | ---------------- | -------------------------------------------------------- |
-| [Instación de componentes][installing-components] | Instalar las herramientas necesarias para construir y trabajar con un proyecto CDKTF |
+| [Instación de clientes][installing-components] | Instalar las herramientas necesarias para construir y trabajar con un proyecto CDKTF |
 | [Crear un Proyecto][create-project] | Crear un proyecto nuevo y entender su arbol de directorios |
 | [Arquitectura PoC][get-sourcecode] | Del sombrero del mago, sacaremos una arquitectura que contiene componentes básicos tales como Authenticación, APIs, Microservicios y Persistencia de datos |
 | [Desplegar infraestructura][deploy-architecture] | Desplegaremos nuestra arquitectura y examinaremos los resultados. |

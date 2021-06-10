@@ -1,4 +1,4 @@
-# Módulo 1: Instalación de los clientes de consola
+# Módulo 1: Instalación de los clientes de terminal
 
 En este módulo instalarás el cliente `cdktf-cli`, quien te proveera de las herramientas necesarias para crear, desplegar, destruir o hacer troubleshooting sobre un proyecto. Este CLI a su vez depende de otro llamado `terraform-cli`, quien ya debes conocer si tienes experiencia previa con Terraform, sino, no te preocupes que esto va desde lo mas básico.
 

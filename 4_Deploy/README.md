@@ -10,10 +10,12 @@ En este modulo realizarás el despliegue de la arquitectura y el aplicativo tal 
 ## Instrucciones 
 Antes de comenzar con cualquier comando, toma nota que en este momento los archivos `.ts` de tu directorio se encuentran solos, y posterior a la ejecución de los despliegues, habrán nuevos archivos `.js` y `.d.ts`, cualquier modificacion que requieras hacer, asegurate de no hacerla contra esos archivos, dado que se sobre-escriben por cada vez que realizas un `deploy`  
 
-Antes
-![Before](../Assets/images/4_Before.png)
+####Antes
 
-Después
+ ![Before](../Assets/images/4_Before.png)
+
+####Después
+
 ![After](../Assets/images/4_After.png)
 
 
@@ -31,7 +33,7 @@ Después
     cd Nombre_De_Tu_Directorio
     ```
     
-1. Una vez en el directorio, vamos a ejecutar la primera instrución.
+1. Una vez en el directorio, vamos a ejecutar la primera instrucción.
     ```bash
     cdktf synth
     ```
@@ -67,8 +69,9 @@ Después
     ```bash
     curl -XGET https://xxxxxxxxxx.execute-api.us-west-1.amazonaws.com/prod/hello?keyid=1
     ```
-    Reemplaza las **xxxxxxxxxx** por el identificador de tu API
-    el resultado debe ser algo como
+    Reemplaza las **xxxxxxxxxx** por el identificador de tu API, resultado del paso anterior.
+
+    El resultado debe ser algo como lo siguiente:
 
     ```bash
     {"msg":"Hello from my NodeJS Lambda","items":[]}
