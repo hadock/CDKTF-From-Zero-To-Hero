@@ -10,11 +10,11 @@ En este modulo realizarás el despliegue de la arquitectura y el aplicativo tal 
 ## Instrucciones 
 Antes de comenzar con cualquier comando, toma nota que en este momento los archivos `.ts` de tu directorio se encuentran solos, y posterior a la ejecución de los despliegues, habrán nuevos archivos `.js` y `.d.ts`, cualquier modificacion que requieras hacer, asegurate de no hacerla contra esos archivos, dado que se sobre-escriben por cada vez que realizas un `deploy`  
 
-####Antes
+#### Antes
 
  ![Before](../Assets/images/4_Before.png)
 
-####Después
+#### Después
 
 ![After](../Assets/images/4_After.png)
 
